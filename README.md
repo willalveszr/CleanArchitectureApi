@@ -80,7 +80,7 @@ DELETE /api/user/{id} → Remove usuário
 ```
 
 #### 👤 Desenvolvido por Wilton Alves Sousa
-```
+
 📧 willalves423@gmail.com
 🔗 www.linkedin.com/in/wiltonalveszrr
-```
+
