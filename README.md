@@ -45,3 +45,41 @@ O objetivo é demonstrar boas práticas de separação de responsabilidades, inj
 ```
 git clone https://github.com/seu-usuario/CleanArchitectureApi.git
 ```
+
+2. Entre na pasta do projeto:
+```
+cd CleanArchitectureApi
+```
+
+3. Configure a string de conexão no arquivo appsettings.json (dentro do projeto Api).
+
+4. Execute as migrações do banco:
+```
+dotnet ef database update --project Infrastructure --startup-project Api
+```
+
+5. Rode a aplicação:
+```
+dotnet run --project Api
+```
+
+6. Acesse a API:
+```
+https://localhost:5001/swagger
+```
+
+---
+
+## 📌 Endpoints Principais
+```
+GET /api/user → Lista todos os usuários
+GET /api/user/{id} → Busca usuário por ID
+POST /api/user → Adiciona novo usuário
+PUT /api/user/{id} → Atualiza usuário existente
+DELETE /api/user/{id} → Remove usuário
+```
+
+#### 👤 Desenvolvido por Wilton Alves Sousa
+
+📧 willalves423@gmail.com
+🔗 www.linkedin.com/in/wiltonalveszrr
