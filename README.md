@@ -60,7 +60,7 @@ dotnet ef database update --project Infrastructure --startup-project Api
 
 5. Rode a aplicação:
 ```
-dotnet run --project Api
+dotnet run --project CleanArchitecture.Api
 ```
 
 6. Acesse a API:
@@ -80,6 +80,7 @@ DELETE /api/user/{id} → Remove usuário
 ```
 
 #### 👤 Desenvolvido por Wilton Alves Sousa
-
+```
 📧 willalves423@gmail.com
 🔗 www.linkedin.com/in/wiltonalveszrr
+```
