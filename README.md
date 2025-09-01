@@ -37,3 +37,11 @@ O objetivo é demonstrar boas práticas de separação de responsabilidades, inj
 ├── Program.cs # Configurações de inicialização
 └── appsettings.json
 ```
+
+---
+
+## 🚀 Como Executar
+1. **Clone o repositório**:  
+```
+git clone https://github.com/seu-usuario/CleanArchitectureApi.git
+```
