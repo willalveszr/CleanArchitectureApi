@@ -16,6 +16,7 @@ O objetivo é demonstrar boas práticas de separação de responsabilidades, inj
 ---
 
 ## 📂 Estrutura do Projeto
+```
 ├── Domain
 │ ├── Entities # Entidades de domínio (regras de negócio)
 │ └── Interfaces # Contratos (ex: repositórios)
@@ -35,3 +36,4 @@ O objetivo é demonstrar boas práticas de separação de responsabilidades, inj
 ├── Controllers # Endpoints da API
 ├── Program.cs # Configurações de inicialização
 └── appsettings.json
+```
